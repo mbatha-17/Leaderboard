@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    border: 2px solid black;
+    max-width: 600px;
+    width: 100vh;
+    margin-top: 40px;
+}
+
+header {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#search {
+    background-color: white;
+    padding: 4px;
+    padding-right: 20px;
+    border-radius: 25%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: gray;
+    height: 20%;
+    border: 2px solid black;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#scores {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 60%;
+}
+
+#fresh {
+    background-color: white;
+    
+}
+#column-8 {
+    width: 60%;
+}
+
+#recentScores {
+    list-style: none;
+    align-items: start;
+    border: 1px solid black;
+    padding: 0;
+}
+
+#recentScores li:nth-child(even) {
+    padding-left: 0;
+    background-color: grey;
+}
+
+#add {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#name {
+    margin-bottom: 15px;
+}
+
+#score {
+    margin-bottom: 15px;
+}
