@@ -56,9 +56,19 @@ footer {
 }
 
 #fresh {
-    background-color: white;
-    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;  
 }
+
+#fresh:hover {
+    background-color: #0056b3;
+    font-weight: 800;
+}
+
 #column-8 {
     width: 60%;
 }
@@ -83,8 +93,15 @@ footer {
 
 #name {
     margin-bottom: 15px;
+    border-radius: 4px;
 }
 
 #score {
     margin-bottom: 15px;
 }
+
+#add button:hover {
+    background-color: #218838;
+    font-weight: 600;
+    font-size: 15px;
+  }
